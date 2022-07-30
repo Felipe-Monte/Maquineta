@@ -77,7 +77,7 @@ a {
     <section>
         <div id="div1">
             Valor:
-                <input type="number" name="numero" id="txtn1" min="0">
+                <input type="number" name="numero" id="txtn1" min="0" max="50000">
                 <input type="button" value="Verificar" onclick="clicar()" id="botao">
         </div>
         <div id="res">
@@ -95,7 +95,7 @@ a {
  var num = document.getElementById('txtn1')
  var res = document.getElementById('res')
 
-  if (num.value.length == 0 || num.value < 0) {
+  if (num.value.length == 0 || num.value < 0 || num.value > 50000) {
     alert('[ERRO] Campo em branco ou inválido !')
     res.innerHTML = `<p>Faça a simulação</p>`
   } else {
