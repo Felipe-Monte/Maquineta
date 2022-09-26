@@ -88,6 +88,10 @@
             font-weight: bold;
         } */
 
+        b {
+            color: red;
+        }
+
         @media screen and (min-width: 480px){
             section {
                 width: 360px;
@@ -171,18 +175,18 @@
         
                 res.style.background = 'white'
                 res.innerHTML = `<p>Seu valor terá um juros de:</p>`
-                res.innerHTML += `1X: ${n} -<b>${n1.toFixed(2)}</b> = ${r1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `2X: ${n} -<b>${n2.toFixed(2)}</b> = ${r2.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `3X: ${n} -<b>${n3.toFixed(2)}</b> = ${r3.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `4X: ${n} -<b>${n4.toFixed(2)}</b> = ${r4.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `5X: ${n} -<b>${n5.toFixed(2)}</b> = ${r5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `6X: ${n} -<b>${n6.toFixed(2)}</b> = ${r6.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `7X: ${n} -<b>${n7.toFixed(2)}</b> = ${r7.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `8X: ${n} -<b>${n8.toFixed(2)}</b> = ${r8.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `9X: ${n} -<b>${n9.toFixed(2)}</b> = ${r9.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `10X: ${n} -<b>${n10.toFixed(2)}</b> = ${r10.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `11X: ${n} -<b>${n11.toFixed(2)}</b> = ${r11.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
-                res.innerHTML += `12X: ${n} -<b>${n12.toFixed(2)}</b> = ${r12.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `1X: ${n} <b>-${n1.toFixed(2)}</b> = ${r1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `2X: ${n} <b>-${n2.toFixed(2)}</b> = ${r2.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `3X: ${n} <b>-${n3.toFixed(2)}</b> = ${r3.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `4X: ${n} <b>-${n4.toFixed(2)}</b> = ${r4.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `5X: ${n} <b>-${n5.toFixed(2)}</b> = ${r5.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `6X: ${n} <b>-${n6.toFixed(2)}</b> = ${r6.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `7X: ${n} <b>-${n7.toFixed(2)}</b> = ${r7.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `8X: ${n} <b>-${n8.toFixed(2)}</b> = ${r8.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `9X: ${n} <b>-${n9.toFixed(2)}</b> = ${r9.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `10X: ${n} <b>-${n10.toFixed(2)}</b> = ${r10.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `11X: ${n} <b>-${n11.toFixed(2)}</b> = ${r11.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
+                res.innerHTML += `12X: ${n} <b>-${n12.toFixed(2)}</b> = ${r12.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
                 res.innerHTML += `<p>Valor das taxas em até 12x</p>`
 
             }
