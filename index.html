@@ -83,11 +83,11 @@
             color: white;
         }
 
-        #aviso {
+        /* #aviso {
             color: red;
             font-weight: bold;
-        }
-        
+        } */
+
         @media screen and (min-width: 480px){
             section {
                 width: 360px;
@@ -107,8 +107,8 @@
             <input type="button" value="Verificar" onclick="clicar()" id="botao">
         </div>
         <div id="res">
-            <p>Faça a simulação</p>
-            <p id="aviso">Aviso! novo aumento 14/09</p>
+            <p>Digite o valor !</p>
+            <!-- <p id="aviso">Aviso! novo aumento 14/09</p> -->
         </div>
         <p><input type="button" value="NOVO VALOR" id="botao2" onclick="novo()"></p>
     </section>
@@ -168,6 +168,7 @@
                 var r11 = (n + n11)
                 var r12 = (n + n12)
 
+        
                 res.style.background = 'white'
                 res.innerHTML = `<p>Seu valor terá um juros de:</p>`
                 res.innerHTML += `1X: ${n} -<b>${n1.toFixed(2)}</b> = ${r1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}<br>`
